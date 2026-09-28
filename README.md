@@ -1,3 +1,6 @@
+> [!WARNING]
+> Typesaurus is retired as of Sep 28, 2026. Read more [here](https://koss.nocorp.me/projects/typesaurus).
+
 # 🦕 Typesaurus Recovery
 
 [Point-in-time recovery](https://firebase.google.com/docs/firestore/pitr) (PITR) adapter for [Typesaurus](https://github.com/kossnocorp/typesaurus), type-safe Firestore ODM.
