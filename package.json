@@ -1,7 +1,22 @@
 {
   "name": "@typesaurus/recovery",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Point-in-time recovery (PITR) adapter for Typesaurus",
+  "keywords": [
+    "Firebase",
+    "Point-in-time recovery",
+    "Typesaurus"
+  ],
+  "homepage": "https://github.com/kossnocorp/typesaurus-pitr#readme",
+  "bugs": {
+    "url": "https://github.com/kossnocorp/typesaurus-pitr/issues"
+  },
+  "license": "MIT",
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kossnocorp/typesaurus-pitr.git"
+  },
   "main": "index.js",
   "module": "index.mjs",
   "exports": {
@@ -20,21 +35,6 @@
   "scripts": {
     "test": "vitest run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kossnocorp/typesaurus-pitr.git"
-  },
-  "keywords": [
-    "Firebase",
-    "Point-in-time recovery",
-    "Typesaurus"
-  ],
-  "author": "Sasha Koss <koss@nocorp.me>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kossnocorp/typesaurus-pitr/issues"
-  },
-  "homepage": "https://github.com/kossnocorp/typesaurus-pitr#readme",
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
